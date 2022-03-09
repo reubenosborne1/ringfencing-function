@@ -52,18 +52,3 @@ and run the following
 ```
 python manage.py resave_all_resrouces
 ```
-
-# Demo
-Demo on mature trees, actors Jane, John, admin and annonymous user.
-
-### Scenarios
-
-Rules are set up in the following way:
-- Only John can see mature trees.
-![image showing John only being able to see a mature tree](https://github.com/KacperSzyf/arches_functions/blob/main/eamena/ringfencing_function/imags/john.png)
-- Only Jane can see juvenile trees.
-![image showing Jane only being able to see a majuvenile tree](https://github.com/KacperSzyf/arches_functions/blob/main/eamena/ringfencing_function/imags/jane.png)
-- Annonymous can't see any trees.
-![image showing no results for anonymous users](https://github.com/KacperSzyf/arches_functions/blob/main/eamena/ringfencing_function/imags/anonymo.png)
-- Admin can see all trees.
-![image showing all trees for admin](https://github.com/KacperSzyf/arches_functions/blob/main/eamena/ringfencing_function/imags/admin.png)
